@@ -17,7 +17,6 @@ const useStyles = makeStyles(() => ({
   },
   mainText: {
     fontSize: "2.8vh",
-    // padding: theme.spacing(2),
   },
   secondaryText: {
     fontSize: "2.8vh",
