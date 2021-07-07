@@ -15,10 +15,7 @@ const useStyles = makeStyles((theme) => ({
     width: "50vh",
     height: "8vh",
     fontSize: "2vh",
-    // position: "absolute",
-    // padding: theme.spacing(2),
-    // bottom: theme.spacing(2),
-    // right: theme.spacing(2),
+    fontWeight: "bold",
     "&:hover": {
       color: green[400],
     },
