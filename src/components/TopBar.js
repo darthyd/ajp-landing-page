@@ -1,14 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import {
-  Box,
-  AppBar,
-  // Typography,
-  // IconButton,
-  Toolbar,
-} from "@material-ui/core";
-// import { green } from "@material-ui/core/colors";
-// import SvgIcon from "@material-ui/core/SvgIcon";
+import { Box, AppBar, Toolbar } from "@material-ui/core";
 import { ReactComponent as ReactLogo } from "../icons/logo.svg";
 
 function Logo(props) {
