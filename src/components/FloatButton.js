@@ -6,6 +6,9 @@ import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import { green } from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
+  root: {
+    textDecoration: "none",
+  },
   fab: {
     backgroundColor: green[400],
     color: "#ddd",
@@ -30,7 +33,12 @@ function FloatButton() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <a
+      href="https://api.whatsapp.com/send?phone=5518996356796"
+      target="_blank"
+      className={classes.root}
+      rel="noreferrer"
+    >
       <Fab
         className={classes.fab}
         variant="extended"
@@ -40,7 +48,7 @@ function FloatButton() {
         <WhatsAppIcon className={classes.iconButton} />
         <span>Entre em contato pelo WhatsApp</span>
       </Fab>
-    </div>
+    </a>
   );
 }
 
