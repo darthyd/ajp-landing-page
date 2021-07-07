@@ -36,8 +36,8 @@ function Hero() {
       <div>
         <h1>Assistência Técnica Especializada</h1>
         <p className={classes.mainText}>
-          Manutenção e instalação em sistemas de irrigação e manutenção em poços
-          artesianos em <strong>Presidente Prudente/SP</strong> e região.
+          Manutenção e instalação de sistemas para irrigação e manutenção de
+          poços artesianos em <strong>Presidente Prudente/SP</strong> e região.
         </p>
         <FloatButton />
         <Box my={3}>
