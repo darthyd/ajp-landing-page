@@ -26,6 +26,7 @@ const useStyles = makeStyles(() => ({
     fontSize: "5vh",
     textDecoration: "none",
     color: "#ddd",
+    fontWeight: "bold",
   },
 }));
 
@@ -44,8 +45,8 @@ function Hero() {
           <p className={classes.secondaryText}>
             ou pelo telefone <br />
           </p>
-          <a className={classes.tel} href="tel:18981733017">
-            (18) 981733017
+          <a className={classes.tel} href="tel:18996356796">
+            (18) 996356796
           </a>
         </Box>
       </div>
