@@ -2,7 +2,6 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { CssBaseline, Box } from "@material-ui/core";
 import TopBar from "./components/TopBar";
-// import FloatButton from "./components/FloatButton";
 import Hero from "./components/Hero";
 
 const useStyles = makeStyles(() => ({
